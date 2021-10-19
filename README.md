@@ -1,5 +1,5 @@
 # KubernetesPodOperator on Airflow
-The KubernetesPodOperator on Airflow is a very powerful operator. It allows you to build and run any image in a Kubernetes cluster. This is particularly useful if you have enough DAGs inside your Airflow server that you start to run into dependency conflicts.
+The KubernetesPodOperator in Airflow is a very powerful operator. It allows you to build and run any image in a Kubernetes cluster. This is particularly useful if you have enough DAGs inside your Airflow server that you start to run into dependency conflicts. By running your task inside a Docker image, you are given the power to define an environment completely separate from your Airflow environment.
 
 Things you'll need before you can run the KubernetesPodOperator on Airflow:
 1. A Kubernetes cluster. Have the kubeconfig file available on your Airflow server for your DAG to point to.
